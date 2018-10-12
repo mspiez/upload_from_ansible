@@ -1,2 +1,18 @@
 ---
-- ''
+- compliance_report:
+      get_bgp_neighbors:
+          global:
+              peers:
+                  172.16.0.6:
+                      is_up:
+                          actual_value: false
+                          expected_value: true
+      get_bgp_neighbors_detail:
+          global:
+              '54591':
+                  missing:
+                  -   input_updates: 4
+                      remote_address: 172.16.0.6
+                      remote_as: 54591
+                      remote_port: 179
+                      up: true
