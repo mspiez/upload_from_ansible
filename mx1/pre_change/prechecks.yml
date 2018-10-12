@@ -2,10 +2,10 @@
 - get_bgp_neighbors_detail:
       global:
           '54591':
-          -   input_updates: 2
+          -   input_updates: -1
               remote_address: 172.16.0.6
               remote_as: 54591
-              remote_port: 62384
+              remote_port: 179
           -   input_updates: 2
               remote_address: 172.16.0.10
               remote_as: 54591
