@@ -1,0 +1,10 @@
+5c5
+<           -   input_updates: 2
+---
+>           -   input_updates: -1
+8,9c8,9
+<               remote_port: 62849
+<               up: true
+---
+>               remote_port: 179
+>               up: false
