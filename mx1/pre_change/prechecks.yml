@@ -6,39 +6,49 @@
               remote_address: 172.16.0.6
               remote_as: 54591
               remote_port: 179
+              up: false
           -   input_updates: 2
               remote_address: 172.16.0.10
               remote_as: 54591
               remote_port: 49827
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.14
               remote_as: 54591
               remote_port: 50634
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.18
               remote_as: 54591
               remote_port: 54172
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.22
               remote_as: 54591
               remote_port: 179
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.26
               remote_as: 54591
               remote_port: 56521
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.30
               remote_as: 54591
               remote_port: 50314
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.34
               remote_as: 54591
               remote_port: 55419
+              up: true
           -   input_updates: 2
               remote_address: 172.16.0.38
               remote_as: 54591
               remote_port: 64531
+              up: true
           -   input_updates: 2
               remote_address: 172.30.0.2
               remote_as: 54591
               remote_port: 58021
+              up: true
