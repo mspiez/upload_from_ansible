@@ -5,7 +5,7 @@
           -   input_updates: 2
               remote_address: 172.16.0.6
               remote_as: 54591
-              remote_port: 62849
+              remote_port: 55551
               up: true
           -   input_updates: 2
               remote_address: 172.16.0.10
