@@ -9,7 +9,7 @@
                           expected_value: true
       get_bgp_neighbors_detail:
           global:
-              '54591':
+              54591:
                   missing:
                   -   input_updates: 4
                       remote_address: 172.16.0.6
