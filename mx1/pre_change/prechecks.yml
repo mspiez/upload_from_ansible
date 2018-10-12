@@ -1,54 +1,79 @@
 ---
+- get_bgp_neighbors:
+      global:
+          peers:
+              172.16.0.10:
+                  is_up: true
+              172.16.0.14:
+                  is_up: true
+              172.16.0.18:
+                  is_up: true
+              172.16.0.22:
+                  is_up: true
+              172.16.0.26:
+                  is_up: true
+              172.16.0.30:
+                  is_up: true
+              172.16.0.34:
+                  is_up: true
+              172.16.0.38:
+                  is_up: true
+              172.16.0.6:
+                  is_up: true
+              172.30.0.2:
+                  is_up: true
+
 - get_bgp_neighbors_detail:
       global:
-          '54591':
-          -   input_updates: 2
-              remote_address: 172.16.0.6
-              remote_as: 54591
-              remote_port: 55551
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.10
-              remote_as: 54591
-              remote_port: 49827
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.14
-              remote_as: 54591
-              remote_port: 50634
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.18
-              remote_as: 54591
-              remote_port: 54172
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.22
-              remote_as: 54591
-              remote_port: 179
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.26
-              remote_as: 54591
-              remote_port: 56521
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.30
-              remote_as: 54591
-              remote_port: 50314
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.34
-              remote_as: 54591
-              remote_port: 55419
-              up: true
-          -   input_updates: 2
-              remote_address: 172.16.0.38
-              remote_as: 54591
-              remote_port: 64531
-              up: true
-          -   input_updates: 2
-              remote_address: 172.30.0.2
-              remote_as: 54591
-              remote_port: 58021
-              up: true
+          54591:
+              list:
+              -   input_updates: 4
+                  remote_address: 172.16.0.6
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.10
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.14
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.18
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.22
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.26
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.30
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.34
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.16.0.38
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
+              -   input_updates: 4
+                  remote_address: 172.30.0.2
+                  remote_as: 54591
+                  remote_port: 179
+                  up: true
