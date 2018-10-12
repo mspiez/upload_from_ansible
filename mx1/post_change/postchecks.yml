@@ -1,114 +1,54 @@
 ---
-- get_bgp_neighbors:
+- get_bgp_neighbors_detail:
       global:
-          peers:
-              172.16.0.10:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.14:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.18:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.22:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.26:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.30:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.34:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.38:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.16.0.6:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
-              172.30.0.2:
-                  address_family:
-                      ipv4:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                      ipv6:
-                          accepted_prefixes: -1
-                          received_prefixes: -1
-                          sent_prefixes: -1
-                  is_up: false
+          '54591':
+          -   input_updates: 2
+              remote_address: 172.16.0.6
+              remote_as: 54591
+              remote_port: 62849
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.10
+              remote_as: 54591
+              remote_port: 49827
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.14
+              remote_as: 54591
+              remote_port: 50634
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.18
+              remote_as: 54591
+              remote_port: 54172
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.22
+              remote_as: 54591
+              remote_port: 179
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.26
+              remote_as: 54591
+              remote_port: 56521
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.30
+              remote_as: 54591
+              remote_port: 50314
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.34
+              remote_as: 54591
+              remote_port: 55419
+              up: true
+          -   input_updates: 2
+              remote_address: 172.16.0.38
+              remote_as: 54591
+              remote_port: 64531
+              up: true
+          -   input_updates: 2
+              remote_address: 172.30.0.2
+              remote_as: 54591
+              remote_port: 58021
+              up: true

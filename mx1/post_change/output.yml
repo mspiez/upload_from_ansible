@@ -1,0 +1,11 @@
+---
+- compliance_report:
+      get_bgp_neighbors:
+          global:
+              peers:
+                  172.16.0.10:
+                      address_family:
+                          ipv4:
+                              accepted_prefixes:
+                                  actual_value: -1
+                                  expected_value: 10
